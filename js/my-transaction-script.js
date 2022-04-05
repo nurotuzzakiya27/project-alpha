@@ -27,42 +27,7 @@ $('#btn_submit_sales_orders').on('click', function(){
 });
 
 $(document).ready(function() {
-
     var counter = 1;
-	 $(function(){
-        var data = [
-              "ActionScript",
-              "AppleScript",
-              "ASP",
-              "BASIC",
-              "C",
-              "C++",
-              "Clojure",
-              "COBOL",
-              "ColdFusion",
-              "Erlang",
-              "Fortran",
-              "Groovy",
-              "Haskell",
-              "Java",
-              "JavaScript",
-              "Lisp",
-              "Perl",
-              "PHP",
-              "Python",
-              "Ruby",
-              "Scala",
-              "Scheme"
-        ];
-        console.log("data")
-        console.log(data)
-        // $("#f_item_id_1").autocomplete({
-        //   source: data
-        // });
-        $("#f_nomor_so").autocomplete({
-          source: data
-        });
-    });
     var t = $('#table_transaction_sales_orders').DataTable();
  
     $('#btn_tambah_sales_orders').on( 'click', function () {
@@ -79,26 +44,36 @@ $(document).ready(function() {
             '</tr>'
         ] ).draw( false );
  		console.log('line-'+ counter);
+
+        var data = [
+            "ActionScript",
+            "AppleScript",
+            "ASP",
+            "BASIC",
+            "C",
+            "C++",
+            "Clojure",
+            "COBOL",
+            "ColdFusion",
+            "Erlang",
+            "Fortran",
+            "Groovy",
+            "Haskell",
+            "Java",
+            "JavaScript",
+            "Lisp",
+            "Perl",
+            "PHP",
+            "Python",
+            "Ruby",
+            "Scala",
+            "Scheme"
+        ];
+        $("#f_item_id_"+counter).autocomplete({
+            source: data
+        });
         counter++;
-
-   		// var nData = parseInt($('#n_data_raw').val())+1;
-  //  		var row =  '<tr id="line-'+ counter +'">'+
-		//             '<td>'+ counter +'</td>'+
-		//             '<td><input type="text" id="f_item_id_'+counter+'"></td>'+
-		//             '<td>'+ counter +'.3</td>'+
-		//             '<td><input type="number" id="f_qty_item"></td>'+
-		//             '<td>'+ counter +'.4</td>'+
-		//             '<td><input type="text" id="f_harga_satuan"></td>'+
-		//             '<td>'+ counter +'.4</td>'+
-		//             '<td><button onclick="Cancel_Line_SO('+counter+')" class="btn btn-danger" id="cancel-'+ counter +'" >X</button></td>'+
-		//             '</tr>';
-		// $('tbody', this).append(row);
     });
-
-    // $('#f_item_id_'+counter).autocomplete(function(){
-    // 	// source: '../combobox/combobox_item.php'
-    // 	console.log('aping');
-    // });
 });
 
 // Proses Penghapusan Line SO

@@ -216,33 +216,22 @@ if(!empty($_GET['id'])){
                             <button type="button" class="btn btn-info" id="btn_tambah_sales_orders"><i class="notika-icon notika-plus-symbol"> Tambah Barang</i></button>
                         </div>
                         <!-- Data Table area Start-->
-                        
-                                            <table id="table_transaction_sales_orders">
-                                                <thead>
-                                                    <tr>
-                                                        <th>No.</th>
-                                                        <th>Kode Barang</th>
-                                                        <th>Nama Barang</th>
-                                                        <th>Qty</th>
-                                                        <th>Satuan</th>
-                                                        <th>Harga Satuan</th>
-                                                        <th>Subtotal</th>
-                                                        <th>Action</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td></td>
-                                                        <td><input type="text" id="f_item_id_1"></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+                            <table id="table_transaction_sales_orders">
+                                <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Kode Barang</th>
+                                        <th>Nama Barang</th>
+                                        <th>Qty</th>
+                                        <th>Satuan</th>
+                                        <th>Harga Satuan</th>
+                                        <th>Subtotal</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
                         <!-- Data Table area End-->
                         <div>
                             <button type="button" class="btn btn-success" id="btn_submit_sales_orders">Submit</button>
