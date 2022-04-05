@@ -108,21 +108,10 @@
     <!-- My Own Script -->
     <script src="js/my-script.js"></script>
     <script src="js/my-transaction-script.js"></script>
-
     <!-- Autocomplete
         ============================================ -->
     <script src="js/jquery/jquery-ui.js"></script>
 
-
-    <!-- <link href="https://repo.rachmat.id/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet"> -->
-    <!-- <script type="text/javascript" src="https://repo.rachmat.id/jquery-1.12.4.js"></script> -->
-    <!-- <script type="text/javascript" src="https://repo.rachmat.id/jquery-ui-1.12.1/jquery-ui.js"></script> -->
-    <!--   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script> -->
-    <!-- <script src="js/jquery.min.js" type="text/javascript"></script> -->
-    <!-- <script src="js/jquery.dataTables.min.js" type="text/javascript"></script> -->
-   <!--  <script src="js/jquery.autocomplete.js"></script>
-    <script src="js/jquery.autocomplete.min.js"></script> -->
     <script type="text/javascript">
        
     /* Area Filter SO */
